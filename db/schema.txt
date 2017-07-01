@@ -1,0 +1,10 @@
+-- 测试 User
+CREATE TABLE IF NOT EXISTS `user`(
+   `id` INT UNSIGNED AUTO_INCREMENT,
+   `name` VARCHAR(20) NOT NULL,
+   `age` INT NOT NULL,
+   `password` VARCHAR(40) NOT NULL,
+   PRIMARY KEY ( `id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into user (name, age, password) values ('test',20,'test');

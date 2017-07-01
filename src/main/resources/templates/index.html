@@ -1,0 +1,876 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link type="text/css" rel="stylesheet" href="/swagger/css/common-qy.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/swagger/css/index.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/swagger/css/main.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/swagger/css/turn2.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/swagger/css/tg.min.css"/>
+    <link type="text/css" rel="stylesheet" href="/swagger/css/page.min.css"/>
+    <script src="//hm.baidu.com/hm.js?3cfaa114cca90dbeb8cf6908074f92ef"></script>
+    <script src="/swagger/lib/count.js" data-token="pc-store" id="token"></script>
+    <!--[if lt IE 9]>
+        <script src="/swagger/lib/html5shiv.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!--logo begin-->
+<div class="logo_bj">
+    <div class="logo fl-clr">
+        <a href="https://szccm1.cn.china.cn" data-scode="" title="深圳创世纪机械有限公司">
+            <img src="https://himg.china.cn/1/4_496_30492_500_500.jpg" height="80" align="baseline" alt="深圳创世纪机械有限公司"/>
+        </a>
+        <div class="h1_box">
+            <div class="h1">
+                <div>
+                    <h1>
+                        <a href="https://szccm1.cn.china.cn" data-scode="" title="深圳创世纪机械有限公司">深圳创世纪机械有限公司</a>
+                    </h1>
+                    <span class="e_code">
+                        <div class="pro-qrcode" data-role="qrcode" data-config="{'url':'https://www.china.cn/common/qrcode/corporations/szccm1.png','width':'107','height':'107','txt':'手机查看#一键打电话给商家','pos':'0','left':'-103','top':'22','thumb':{'thumbUrl':'//himg.china.cn/img/common/ioc_he.png','thumbWidth':'16px','thumbHeight':'16px'}}" style="width: 16px; height: 16px; position: relative; float: none;">
+                            <img src="//himg.china.cn/img/common/ioc_he.png" data-role="thumb_img" class="thumb_img" style="width: 16px; height: 16px; border: none; opacity: 1;"/>
+                            <div style="position: absolute; border: 1px solid rgb(211, 211, 211); z-index: 9; background-color: rgb(255, 255, 255); text-align: center; padding: 10px; width: 107px; display: none; overflow: hidden; height: 143px; margin-top: 0px; margin-bottom: 0px;">
+                                <img src="https://www.china.cn/common/qrcode/corporations/szccm1.png" style="border: none; float: none; width: 107px; height: 107px;"/>
+                                <div style="font-size: 12px; color: rgb(102, 102, 102); line-height: 18px; font-weight: normal; font-family: 微软雅黑; width: 100%; text-align: center; height: 36px; margin-top: 0px;">手机查看<br/>一键打电话给商家
+                                </div>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </div>
+            <h2 class="sale_main fl-clr">主营产品：CNC加工中心、钻铣攻牙机、模具机/零件机、高光机/玻璃机</h2>
+        </div>
+        <div class="search-warp fl-clr" data-role="SearchControl" data-type="4">
+            <div class="serch-bar">
+                <div class="contact_number">
+                    <i></i>
+                    <span>136-0262-9173</span>
+                </div>
+                <input name="" type="hidden" id="contact_number" value="13602629173"/>
+            </div>
+        </div>
+    </div>
+</div>
+<!--logo end-->
+<div class="nav_dh">
+    <ul class="nav_ul">
+        <li class="second_0"><a href="https://szccm1.cn.china.cn" data-scode="30017" title="公司首页" class="a">公司首页</a></li>
+        <li id="dhxl" class="second">
+            <a href="https://szccm1.cn.china.cn/supply/" class="a" title="供应信息" data-scode="30018">
+                <span style="padding-right: 6px;">供应信息<i></i></span>
+            </a>
+            <div class="txt" style="display: none;">
+                <div class="second_div">
+                    <p class="t">
+                        <a href="https://szccm1.cn.china.cn/supply/g3660830637_1.html" title="龙门加工中心">龙门加工中心</a>
+                    </p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3660867411_1.html" title="硬轨立式加工中心">硬轨立式加工中心</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3660868266_1.html" title="线轨立式加工中心">线轨立式加工中心</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3660870750_1.html" title="高速CNC">高速CNC</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3660876492_1.html" title="零件加工中心">零件加工中心</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3660879111_1.html" title="钻孔攻牙机">钻孔攻牙机</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3660902052_1.html" title="雕铣机">雕铣机</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="second_div">
+                    <p class="t"><a href="https://szccm1.cn.china.cn/supply/g3834278145_1.html" title="玻璃雕刻机">玻璃雕刻机</a></p>
+                    <div class="second_txt">
+                    </div>
+                </div>
+                <div class="aa"><a href="https://szccm1.cn.china.cn/supply/" title="查看全部分类">查看全部分类 <font>&gt;&gt;</font></a></div>
+            </div>
+        </li>
+        <li><a href="https://szccm1.cn.china.cn/company-information.html" data-scode="30020" title="公司介绍" class="a">公司介绍</a></li>
+        <li><a href="https://szccm1.cn.china.cn/certificates.html" data-scode="30021" title="公司资质" class="a">公司资质</a></li>
+        <li><a href="https://szccm1.cn.china.cn/photo-album.html" data-scode="30026" title="公司相册" class="a">公司相册</a></li>
+        <li><a href="https://szccm1.cn.china.cn/contact-information/" data-scode="30022" title="联系方式" class="a">联系方式</a></li>
+    </ul>
+</div>
+<!-- End - Banner -->
+<!--bd ad start-->
+<div style="margin:7px auto 7px auto;" align="center">
+    <script type="text/javascript">
+        var cpro_id = "u2762707";
+        (window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id] = {
+            at: "3",
+            rsi0: "1190",
+            rsi1: "130",
+            pat: "6",
+            tn: "baiduCustNativeAD",
+            rss1: "#FFFFFF",
+            conBW: "0",
+            adp: "1",
+            ptt: "0",
+            titFF: "%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",
+            titFS: "13",
+            rss2: "#000000",
+            titSU: "0",
+            ptbg: "90",
+            piw: "155",
+            pih: "100",
+            ptp: "0"
+        }
+    </script>
+    <script src="//cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+</div>
+<!--bd ad end-->
+
+<!-- head end -->
+<!--	内容开始		-->
+
+<div class="content fl-clr">
+    <div class="prtj_0 ">
+        <div class="con fl-clr">
+            <!-- 当前位置-->
+            <div class="place" id="place">
+                <div class="here fl-left">
+                    <span>当前位置&nbsp;&nbsp;&gt;</span>
+                    <span class="f-bold">公司首页</span>
+                </div>
+                <div class="online-cont fl-right">
+                    <a href="javascript:;" onclick="chinacn.openQQ('2533798927',30092);" rel="nofollow" target="_blank" title="QQ交谈" class="qq-cont"></a>
+                    <a class="leave-words" target="_blank" href="//my.cn.china.cn/manage.php?op=messageAnonPublish&amp;corpid=2922417000&amp;type=1" rel="nofollow" title="发送询盘" data-scode="30032" data-cnrole="company"></a>
+                </div>            </div>
+            <div class="prtj">
+                <!--<div class="prtj_tit"><h2>精品橱窗</h2></div>-->
+                <div class="prtj_tit">精品橱窗</div>
+
+            </div>
+        </div>
+    </div>
+    <div class="con_0 fl-clr">
+        <div class="con_lf">
+            <div class="det-info item" id="det_info">
+                <div class="lef-bd">
+                    <ul class="">
+                        <li class="member-info pthy_big">
+                            <div class="column_xx"> <i></i> </div>
+                            <div class="comp"><a href="https://szccm1.cn.china.cn" data-scode="" class="blue-link" title="深圳创世纪机械有限公司">深圳创世纪机械有限公司</a></div>
+                            <a href="https://szccm1.cn.china.cn/certificates.html" title="公司资质已上传" data-scode=""><span class=""></span></a>
+                        </li>
+                        <li class="cut-pt"></li>
+                        <li class="link-btn"><span class="linker_rr"></span><span class="linker">陈先生</span><br/>
+                            <span class="phdh">136 0262 9173</span>
+                            <span class="phdh">0755-27255633</span> </li>
+                        <li class="cut-dot"></li>
+                        <li>
+                            <dl>
+                                <dt>所在地：</dt>
+                                <dd>广东 深圳</dd>
+                            </dl>
+                            <dl>
+                                <dt>主营产品：</dt>
+                                <dd>
+                                    <em><a href="https://www.china.cn/search/p5ip.shtml" data-scode="" target="_blank" title="CNC加工中心">CNC加工中心</a> </em>
+                                    <em><a href="https://www.china.cn/search/3hled.shtml" data-scode="" target="_blank" title="钻铣攻牙机">钻铣攻牙机</a> </em>
+                                    <em><a href="https://www.china.cn/search/f4n41x.shtml" data-scode="" target="_blank" title="模具机/零件机">模具机/零件机</a> </em>
+                                    <em><a href="https://www.china.cn/search/hok494.shtml" data-scode="" target="_blank" title="高光机/玻璃机">高光机/玻璃机</a> </em>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <div class="online-cont">
+                        <a href="javascript:;" onclick="chinacn.openQQ('2533798927',30092);" rel="nofollow" target="_blank" title="QQ交谈" class="qq-cont"></a>
+                        <a class="leave-words" target="_blank" href="//my.cn.china.cn/manage.php?op=messageAnonPublish&amp;corpid=2922417000&amp;type=1" rel="nofollow" title="发送询盘" data-cnrole="company"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="gyxx item" id="sell_cate">
+                <div class="h2-bg"><span class="golfh2">供应信息分类</span></div>
+                <div class="lef-bd" data-cnrole="overlist">
+                    <ul class="supply_ul">
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660830637_1.html" title="龙门加工中心">龙门加工中心</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660867411_1.html" title="硬轨立式加工中心">硬轨立式加工中心</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660868266_1.html" title="线轨立式加工中心">线轨立式加工中心</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660870750_1.html" title="高速CNC">高速CNC</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660876492_1.html" title="零件加工中心">零件加工中心</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660879111_1.html" title="钻孔攻牙机">钻孔攻牙机</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3660902052_1.html" title="雕铣机">雕铣机</a></div>
+                        </li>
+                        <li>
+                            <div class="t hover"><span></span><a data-scode="30033" href="https://szccm1.cn.china.cn/supply/g3834278145_1.html" title="玻璃雕刻机">玻璃雕刻机</a></div>
+                        </li>
+                    </ul>
+                    <div class="supply_more"><a data-scode="30033" title="查看全部分类" href="https://szccm1.cn.china.cn/supply/">查看全部分类 <font>&gt;&gt;</font></a></div>
+                </div>
+            </div>
+            <!--baidu ad-->
+            <div style="margin:0px auto 10px auto;" align="center">
+                <script type="text/javascript">
+                    /*cnshopv2-left通用2-240*240*/
+                    var cpro_id = "u2765714";
+                </script>
+                <script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/c.js"></script>
+            </div>
+            <!--baidu ad-->
+            <!--联系方式-->
+            <div class="lxfs item" id="contact">
+                <div class="h2-bg"><h3><span class="golfh2">联系方式</span></h3></div>
+                <div class="lef-bd">
+                    <ul class="dot2">
+                        <li>
+                            <dl>
+                                <dt>联系人：</dt>
+                                <dd>陈先生</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>电&nbsp;&nbsp;&nbsp;话：</dt>
+                                <dd>0755-27255633</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>手&nbsp;&nbsp;&nbsp;机：</dt>
+                                <dd>13602629173</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>传&nbsp;&nbsp;&nbsp;真：</dt>
+                                <dd>0755-27255933</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>地&nbsp;&nbsp;&nbsp;址：</dt>
+                                <dd>广东 深圳 宝安区 宝安区沙井街道东环路508号</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt>客&nbsp;&nbsp;&nbsp;服：</dt>
+                                <dd class="a_kf">
+                                    <a onclick="chinacn.openQQ(2533798927,30092);" rel="nofollow" target="_blank" title="点击这里给我发消息" class="qqjt"></a>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <div class="map_dt">
+                        <div class="mapBox" id="bdmap" style="height: 200px; width: 198px; overflow: hidden; position: relative; z-index: 0; background-color: rgb(243, 241, 236); color: rgb(0, 0, 0); text-align: left;">
+                            <div style="overflow: visible; position: absolute; z-index: 0; left: 0px; top: 0px; cursor: url(&quot;https://sapi.map.baidu.com/images/openhand.cur&quot;) 8 8, default;">
+                                <div class="BMap_mask" style="position: absolute; left: 0px; top: 0px; z-index: 9; overflow: hidden; user-select: none; width: 198px; height: 200px;"></div>
+                                <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;">
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 800;"></div>
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 700;">
+                                        <span class="BMap_Marker BMap_noprint" unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; cursor: pointer; background: url(&quot;https://sapi.map.baidu.com/images/blank.gif&quot;); width: 19px; height: 25px; left: 89px; top: 75px; z-index: -4544928;" title="">
+                                        </span>
+                                    </div>
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 600;"></div>
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 500;"></div>
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 400;">
+                                        <span class="BMap_Marker" unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 0px; height: 0px; left: 89px; top: 75px; z-index: -4544928;">
+                                            <div style="position: absolute; margin: 0px; padding: 0px; width: 19px; height: 25px; overflow: hidden;">
+                                                <img src="https://sapi.map.baidu.com/images/marker_red_sprite.png" style="border:none;left:0px; top:0px; position:absolute;"/>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 300;">
+                                        <span unselectable="on" style="position: absolute; padding: 0px; margin: 0px; border: 0px; width: 20px; height: 11px; left: 93px; top: 89px;">
+                                            <div style="position: absolute; margin: 0px; padding: 0px; width: 20px; height: 11px; overflow: hidden;">
+                                                <img src="https://sapi.map.baidu.com/images/marker_red_sprite.png" style="border:none;left:-19px; top:-13px; position:absolute;"/>
+                                            </div>
+                                        </span>
+                                    </div>
+                                    <div style="position: absolute; height: 0px; width: 0px; left: 0px; top: 0px; z-index: 200;"></div>
+                                </div>
+                                <div style="position: absolute; top: 0px; left: 0px; z-index: 1; backface-visibility: hidden;">
+                                    <div style="position: absolute; z-index: -100; left: 99px; top: 100px;">
+                                        <img src="https://ss0.bdstatic.com/8bo_dTSlRsgBo1vgoIiO_jowehsv/tile/?qt=tile&amp;x=12377&amp;y=2521&amp;z=16&amp;styles=pl&amp;udt=20150518" style="position: absolute; border: none; width: 256px; height: 256px; left: -128px; top: -107px; opacity: 1;"/>
+                                    </div>
+                                </div>
+                                <div style="position: absolute; top: 0px; left: 0px; z-index: 2;"></div>
+                            </div>
+                            <div class=" anchorBL" style="height: 32px; position: absolute; z-index: 30; text-size-adjust: none; bottom: 20px; right: auto; top: auto; left: 1px; display: none;">
+                                <a title="到百度地图查看此区域" target="_blank" href="http://map.baidu.com/?sr=1" style="outline: none;">
+                                    <img style="border:none;width:77px;height:32px" src="https://sapi.map.baidu.com/images/copyright_logo.png"/>
+                                </a>
+                            </div>
+                            <div id="zoomer" style="position:absolute;z-index:0;top:0px;left:0px;overflow:hidden;visibility:hidden;cursor:url(https://sapi.map.baidu.com/images/openhand.cur) 8 8,default">
+                                <div class="BMap_zoomer" style="top:0;left:0;"></div>
+                                <div class="BMap_zoomer" style="top:0;right:0;"></div>
+                                <div class="BMap_zoomer" style="bottom:0;left:0;"></div>
+                                <div class="BMap_zoomer" style="bottom:0;right:0;"></div>
+                            </div>
+                            <div unselectable="on" class=" BMap_stdMpCtrl BMap_stdMpType1 BMap_noprint anchorTL" style="width: 37px; height: 97px; bottom: auto; right: auto; top: 10px; left: 10px; position: absolute; z-index: 1100; text-size-adjust: none;">
+                                <div class="BMap_stdMpPan">
+                                    <div class="BMap_button BMap_panN" title="向上平移"></div>
+                                    <div class="BMap_button BMap_panW" title="向左平移"></div>
+                                    <div class="BMap_button BMap_panE" title="向右平移"></div>
+                                    <div class="BMap_button BMap_panS" title="向下平移"></div>
+                                    <div class="BMap_stdMpPanBg BMap_smcbg"></div>
+                                </div>
+                                <div class="BMap_stdMpZoom" style="height: 42px; width: 37px;">
+                                    <div class="BMap_button BMap_stdMpZoomIn" title="放大一级">
+                                        <div class="BMap_smcbg"></div>
+                                    </div>
+                                    <div class="BMap_button BMap_stdMpZoomOut" title="缩小一级" style="top: 21px;">
+                                        <div class="BMap_smcbg"></div>
+                                    </div>
+                                    <div class="BMap_stdMpSlider" style="height: 0px;">
+                                        <div class="BMap_stdMpSliderBgTop" style="height: 0px;">
+                                            <div class="BMap_smcbg"></div>
+                                        </div>
+                                        <div class="BMap_stdMpSliderBgBot"></div>
+                                        <div class="BMap_stdMpSliderMask" title="放置到此级别"></div>
+                                        <div class="BMap_stdMpSliderBar" title="拖动缩放" style="cursor: url(&quot;https://sapi.map.baidu.com/images/openhand.cur&quot;) 8 8, default;">
+                                            <div class="BMap_smcbg"></div>
+                                        </div>
+                                    </div>
+                                    <div class="BMap_zlHolder">
+                                        <div class="BMap_zlSt">
+                                            <div class="BMap_smcbg"></div>
+                                        </div>
+                                        <div class="BMap_zlCity">
+                                            <div class="BMap_smcbg"></div>
+                                        </div>
+                                        <div class="BMap_zlProv">
+                                            <div class="BMap_smcbg"></div>
+                                        </div>
+                                        <div class="BMap_zlCountry">
+                                            <div class="BMap_smcbg"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div unselectable="on" class=" BMap_cpyCtrl BMap_noprint anchorBR" style="cursor: default; white-space: nowrap; color: black; background: none; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: 15px; font-family: arial, sans-serif; bottom: 2px; right: 5px; top: auto; left: auto; position: absolute; z-index: 10; text-size-adjust: none;">
+                                <span _cid="1" style="display: inline;">中国供应商</span>
+                            </div>
+                            <div unselectable="on" class=" BMap_cpyCtrl anchorBL" style="cursor: default; white-space: nowrap; color: black; background: none; font-style: normal; font-variant: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: 15px; font-family: arial, sans-serif; bottom: 2px; right: auto; top: auto; left: 4px; position: absolute; z-index: 10; text-size-adjust: none;">
+                                <span _cid="1" style="display: inline;">
+                                    <span style="background: rgba(255, 255, 255, 0.701961);padding: 0px 1px;line-height: 16px;display: inline;height: 16px;">©&nbsp;2017 Baidu - GS(2016)2089号&nbsp;- Data © 长地万方</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--baidu ad-->
+            <div style="margin:0px auto 10px auto;" align="center">
+                <script type="text/javascript">
+                    /*cnshopv2-left通用3-240*350*/
+                    var cpro_id = "u2765722";
+                </script>
+                <script type="text/javascript" src="https://cpro.baidustatic.com/cpro/ui/c.js"></script>
+            </div>
+            <!--baidu ad-->
+        </div>        <div class="con_rt con-rig ">
+        <div class="company-intro">
+            <div class="h2-bg section"><span class="sh1">公司简介</span> <a href="https://szccm1.cn.china.cn/company-information.html" rel="nofollow" class="more fl-right" data-scode="30102" title="更多"> 更多 &gt; </a> </div>
+            <div class="rig-bd fl-clr">
+                <div class="company-pic"><span>
+                    <img src="https://himg.china.cn/1/3_494_98955_550_367.jpg" width="200" alt="深圳创世纪机械有限公司"/> </span>
+                </div>
+                <div class="company-info">
+                    <p>深圳市创世纪机械有限公司（台群精机）成立于2005年，是一家集高端智能装备的研发、生产、销售、服务于一体的国家高新技术企业。旗下拥有Taikan台群、Yuken宇德两大品牌，数控机床产品品种齐全，涵括钻铣攻牙机、高速加工中心机、硬轨线轨加工中心机、龙门加工中心机、高速雕铣机、高光机、玻璃机等系列精密加工设备。经过多年的发展，创世纪已经成为国内高端智能装备龙头制造企业。
+                        公司总部位于深圳市宝安区，现有三个现代化生产制造基地，厂房面积达60000余平方米，现有员工1000余人。作为国家高新技术企业，公司建有一支 高素质的专业研发团队，先后获得八十八项核心技术专利，产品拥有完全自主知识产权。先后获得“广东省著名品牌”、“深圳市高新技术企业”、“国家高新技术企 业”、“深圳市机械行业协会常任理事企业”、“国家十二五重点装备制造行业企业”等多项荣誉称号，并通过了 ISO9001国际质量管理体系认证和ISO14000环境管理体系认证。
+                        目前，公司销售和服务网络遍及全国各地，设有专业售后服务中心，并在北京、天津、山东、河南、安徽、四川、湖北、湖南、江苏、浙江、上海、福建、广</p>
+                </div>
+            </div>
+        </div>
+        <!--baidu ad-->
+        <div style="margin:0px auto 20px auto;" align="center">
+            <script type="text/javascript">
+                /*cnshopv2-首页-公司简介下928*120*/
+                var cpro_id = "u2765730";
+            </script>
+            <script type="text/javascript" src="//cpro.baidustatic.com/cpro/ui/c.js"></script>
+        </div>
+        <!--baidu ad-->
+        <!-- 推荐信息-->
+        <div class="company-intro ggjj">
+            <div class="h2-bg section"><span class="sh1">供应信息分类</span><a href="https://szccm1.cn.china.cn/supply/" data-scode="" rel="nofollow" class="more fl-right" title="更多"> 更多 &gt; </a> </div>
+            <div class="rig-bd fl-clr">
+                <div class="mian-line">
+                    <div class="assists">
+                        <ul class="fl-clr">
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660830637_1.html" data-scode="" rel="nofollow" title="龙门加工中心">龙门加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660867411_1.html" data-scode="" rel="nofollow" title="硬轨立式加工中心">硬轨立式加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660868266_1.html" data-scode="" rel="nofollow" title="线轨立式加工中心">线轨立式加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660870750_1.html" data-scode="" rel="nofollow" title="高速CNC">高速CNC</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660876492_1.html" data-scode="" rel="nofollow" title="零件加工中心">零件加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660879111_1.html" data-scode="" rel="nofollow" title="钻孔攻牙机">钻孔攻牙机</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660902052_1.html" data-scode="" rel="nofollow" title="雕铣机">雕铣机</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3834278145_1.html" data-scode="" rel="nofollow" title="玻璃雕刻机">玻璃雕刻机</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="new-supply item" id="new_sup">
+            <div class="h2-bg section"> <span class="sh1">最新供应</span> <a href="https://szccm1.cn.china.cn/supply/" data-scode="" rel="nofollow" class="more fl-right" title="更多"> 更多 &gt; </a> </div>
+            <div class="rig-bd fl-clr">
+                <ul class="pro-sup fl-clr">
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/shukongjichuang/4079602645.html" data-scode="" title="厂家直销台群精机钻攻机T-500H高转速数控机床超稳定CNC" target="_blank">
+                                    <img src="https://himg.china.cn/1/4_946_223218_800_800.jpg" height="160" width="160" alt="厂家直销台群精机钻攻机T-500H高转速数控机床超稳定CNC"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd>
+                                <a href="https://www.china.cn/shukongjichuang/4079602645.html" data-scode="" title="厂家直销台群精机钻攻机T-500H高转速数控机床超稳定CNC" target="_blank">厂家直销台群精机钻攻机T-500H高转速数控机床超稳定CNC</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/4078922309.html" data-scode="" title="深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床" target="_blank">
+                                    <img src="https://himg.china.cn/1/4_946_223218_800_800.jpg" height="160" width="160" alt="深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd><a href="https://www.china.cn/jiagongzhongxin/4078922309.html" data-scode="" title="深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床" target="_blank">深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/bolijixie/4078900135.html" data-scode="" title="台群精机***新3D热弯机超高效率热弯机全进口配件数控机床" target="_blank">
+                                    <img src="https://himg.china.cn/1/4_160_224314_767_665.jpg" height="160" width="160" alt="台群精机***新3D热弯机超高效率热弯机全进口配件数控机床"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd>
+                                <a href="https://www.china.cn/bolijixie/4078900135.html" data-scode="" title="台群精机***新3D热弯机超高效率热弯机全进口配件数控机床" target="_blank">台群精机***新3D热弯机超高效率热弯机全进口配件数控机床</a>
+                            </dd>
+                        </dl>
+                    </li>
+
+                    <li>
+                        <dl>
+                            <dt><a href="https://www.china.cn/jiagongzhongxin/3753931317.html" data-scode="" title="台群CNC数控加工中心856多少钱一台" target="_blank">
+                                <img src="https://himg.china.cn/1/3_183_98909_614_532.jpg" height="160" width="160" alt="台群CNC数控加工中心856多少钱一台"/></a></dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd><a href="https://www.china.cn/jiagongzhongxin/3753931317.html" data-scode="" title="台群CNC数控加工中心856多少钱一台" target="_blank">台群CNC数控加工中心856多少钱一台</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/3752122755.html" data-scode="" title="精密数控机床 四轴加工中心 台群精机T-8L 加刀库" target="_blank">
+                                    <img src="https://himg.china.cn/1/4_872_13198_800_800.jpg" height="160" width="160" alt="精密数控机床 四轴加工中心 台群精机T-8L 加刀库"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd>
+                                <a href="https://www.china.cn/jiagongzhongxin/3752122755.html" data-scode="" title="精密数控机床 四轴加工中心 台群精机T-8L 加刀库" target="_blank">精密数控机床 四轴加工中心 台群精机T-8L 加刀库</a>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--	相册			-->
+        <div class="album-detail-mod item">
+            <div class="h2-bg section">
+                <span class="sh1">公司实景</span>
+                <a href="https://szccm1.cn.china.cn/photo-album.html" data-scode="" rel="nofollow" class="more fl-right" title="更多"> 更多 &gt; </a>
+            </div>
+            <div class="imgs-list-contact">
+                <div class="big-pic fl-locate">
+                    <div class="hidden-img">
+                        <img src="https://himg.china.cn/0/3_149_98531_550_367.jpg"/>
+                    </div>
+                    <div class="bigpic-cont">
+                        <div class="imgBar">
+                            <a href="javascript:;" class="c_left" title="上一个"></a>
+                            <a href="javascript:;" class="c_right" title="下一个"></a>
+                        </div>
+                        <div class="vertical-img">
+                            <span>
+                                <img src="https://himg.china.cn/0/3_149_98531_550_367.jpg"/>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="pic-group">
+                    <div class="pic-box fl-clr">
+                        <button id="leftbutton" class="turn t-left diser" data-scode="31004" style="display: none;"></button>
+                        <div class="pic-cont" style="width: auto; left: 50%; overflow: visible;">
+                            <ul id="img_list" class="fl-clr" style="width: auto; position: relative; left: -50%;">
+                                <li picurl="https://himg.china.cn/0/3_149_98531_550_367.jpg" class="cur-pic">
+                                    <a title="" href="javascript:;">
+                                        <img src="https://himg.china.cn/1/3_149_98531_550_367.jpg"/>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <button id="rightbutton" class="turn t-right diser" data-scode="31004" style="display: none;"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-supply item" id="new_sup">
+            <div class="h2-bg section"> <span class="sh1">最新供应</span> <a href="https://szccm1.cn.china.cn/supply/" rel="nofollow" data-scode="" class="more fl-right" title="更多"> 更多 &gt; </a> </div>
+            <div class="rig-bd fl-clr">
+                <ul class="pro-sup fl-clr">
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/3595127100.html" data-scode="" title="台群高速钻孔攻牙机T-500H 金属外壳加工 零件机加工设备" target="_blank">
+                                    <img src="https://himg.china.cn/1/3_175_98679_469_535.jpg" height="160" width="160" alt="台群高速钻孔攻牙机T-500H 金属外壳加工 零件机加工设备"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd><a href="https://www.china.cn/jiagongzhongxin/3595127100.html" data-scode="" title="台群高速钻孔攻牙机T-500H 金属外壳加工 零件机加工设备" target="_blank">台群高速钻孔攻牙机T-500H 金属外壳加工 零件机加工设备</a></dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/3678865059.html" data-scode="" title="CNC数控机床 深圳沙井电脑锣 Taikan 台群精机 精密机加工设备心T-8HL" target="_blank">
+                                    <img src="https://himg.china.cn/1/3_1020_98780_539_535.jpg" height="160" width="160" alt="CNC数控机床 深圳沙井电脑锣 Taikan 台群精机 精密机加工设备心T-8HL"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd>
+                                <a href="https://www.china.cn/jiagongzhongxin/3678865059.html" data-scode="" title="CNC数控机床 深圳沙井电脑锣 Taikan 台群精机 精密机加工设备心T-8HL" target="_blank">CNC数控机床 深圳沙井电脑锣 Taikan 台群精机 精密机加工设备心T-8HL</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/3751885461.html" data-scode="" title="台群钻攻中心 Taikan 立式数控钻孔攻牙机 T-500H 精密数控钻铣 高速自动钻孔" target="_blank">
+                                    <img src="https://himg.china.cn/1/3_175_98679_469_535.jpg" height="160" width="160" alt="台群钻攻中心 Taikan 立式数控钻孔攻牙机 T-500H 精密数控钻铣 高速自动钻孔"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd>
+                                <a href="https://www.china.cn/jiagongzhongxin/3751885461.html" data-scode="" title="台群钻攻中心 Taikan 立式数控钻孔攻牙机 T-500H 精密数控钻铣 高速自动钻孔" target="_blank">台群钻攻中心 Taikan 立式数控钻孔攻牙机 T-500H 精密数控钻铣 高速自动钻孔</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/4078922309.html" data-scode="" title="深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床" target="_blank">
+                                    <img src="https://himg.china.cn/1/4_946_223218_800_800.jpg" height="160" width="160" alt="深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd>
+                                <a href="https://www.china.cn/jiagongzhongxin/4078922309.html" data-scode="" title="深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床" target="_blank">深圳台群精机高速钻铣攻牙机T-500H高效率电脑锣稳定性数控机床</a>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl>
+                            <dt>
+                                <a href="https://www.china.cn/jiagongzhongxin/3752122755.html" data-scode="" title="精密数控机床 四轴加工中心 台群精机T-8L 加刀库" target="_blank">
+                                    <img src="https://himg.china.cn/1/4_872_13198_800_800.jpg" height="160" width="160" alt="精密数控机床 四轴加工中心 台群精机T-8L 加刀库"/>
+                                </a>
+                            </dt>
+                            <dd class="price">
+                                <font class="ft12">￥</font><font class="fts">1</font><font class="ft14">.00</font>
+                            </dd>
+                            <dd><a href="https://www.china.cn/jiagongzhongxin/3752122755.html" data-scode="" title="精密数控机床 四轴加工中心 台群精机T-8L 加刀库" target="_blank">精密数控机床 四轴加工中心 台群精机T-8L 加刀库</a></dd>
+                        </dl>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!--	企业资质		-->
+        <div class="qyzz">
+            <div class="h2-bg section"> <span class="sh1">企业资质</span>
+                <a href="https://szccm1.cn.china.cn/certificates.html" rel="nofollow" data-scode="" class="more fl-right" title="更多"> 更多 &gt; </a>
+            </div>
+            <div class="cates-pic-0">
+                <ul class="wd300 fl-clr">
+                    <pre></pre>
+                    <li>
+                        <a href="https://szccm1.cn.china.cn/certificates/2922476250.html" data-scode="" title="三证合一影印件" target="_blank">
+                            <img src="https://himg.china.cn/2/4_750_76470_1359_2000.jpg" alt="三证合一影印件" width="280" height="280"/>
+                        </a>
+                        <a href="https://szccm1.cn.china.cn/certificates/2922476250.html" data-scode="" title="三证合一影印件" target="_blank">三证合一影印件</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="company-intro ggjj">
+            <div class="h2-bg section"><span class="sh1">供应信息分类</span><a href="https://szccm1.cn.china.cn/supply/" data-scode="" rel="nofollow" class="more fl-right" title="更多"> 更多 &gt; </a> </div>
+            <div class="rig-bd fl-clr">
+                <div class="mian-line">
+                    <div class="assists">
+                        <ul class="fl-clr">
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660830637_1.html" data-scode="" rel="nofollow" title="龙门加工中心">龙门加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660867411_1.html" data-scode="" rel="nofollow" title="硬轨立式加工中心">硬轨立式加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660868266_1.html" data-scode="" rel="nofollow" title="线轨立式加工中心">线轨立式加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660870750_1.html" data-scode="" rel="nofollow" title="高速CNC">高速CNC</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660876492_1.html" data-scode="" rel="nofollow" title="零件加工中心">零件加工中心</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660879111_1.html" data-scode="" rel="nofollow" title="钻孔攻牙机">钻孔攻牙机</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3660902052_1.html" data-scode="" rel="nofollow" title="雕铣机">雕铣机</a> </li>
+                            <li> <a href="https://szccm1.cn.china.cn/supply/g3834278145_1.html" data-scode="" rel="nofollow" title="玻璃雕刻机">玻璃雕刻机</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+
+    <input type="hidden" value="1" id="pagenums"/>
+    <input type="hidden" value="4902729" id="albumid"/>
+    <input type="hidden" value="11" id="pagesize"/>
+    <div class="company-intro ggjj" style="width:1150px; margin:0 auto 20px;">
+        <div class="h2-bg section">
+            <span class="sh1">推荐信息</span>
+        </div>
+        <!--baidu ad-->
+        <div style="margin:0px auto 20px auto;" align="center">
+            <script type="text/javascript">
+                var cpro_id="u2767536";
+                (window["cproStyleApi"] = window["cproStyleApi"] || {})[cpro_id]={at:"3",rsi0:"1150",rsi1:"190",pat:"6",tn:"baiduCustNativeAD",rss1:"#FFFFFF",conBW:"0",adp:"1",ptt:"0",titFF:"%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91",titFS:"14",rss2:"#000000",titSU:"0",ptbg:"90",piw:"168",pih:"168",ptp:"0"}
+            </script>
+            <script src="//cpro.baidustatic.com/cpro/ui/c.js" type="text/javascript"></script>
+        </div>
+        <!--baidu ad-->
+    </div>
+
+
+</div>
+<!-- 页脚 -->
+<div class="ft">
+    <div class="ft_0 ffly fl-clr">
+        <div class="ft_lf">
+            <a href="https://cn.china.cn" data-scode="" target="_blank" title="中国供应商" rel="nofollow">
+                <img src="https://himg.china.cn/img/common/logo/200x44_white.png" width="200" height="44" alt="中国供应商"/>
+            </a>
+            技术支持：<a href="https://cn.china.cn" title="中国供应商" rel="nofollow" data-scode="" target="_blank">中国供应商 </a>
+        </div>
+        <div class="ft_rt">
+            <div class="fl-clr">
+                <dl class="fl-clr">
+                    <dt>管理员入口</dt>
+                    <dd><a href="https://my.cn.china.cn/manage.php?op=adminIndex" data-scode="" title="店铺管理" target="_blank" rel="nofollow">店铺管理</a></dd>
+                    <dd><a href="https://cn.china.cn/buy/purchase/" data-scode="" title="找求购" target="_blank" rel="nofollow">找求购</a></dd>
+                </dl>
+                <dl class="fl-clr">
+                    <dt>关于我们</dt>
+                    <dd><a href="https://szccm1.cn.china.cn/company-information.html" data-scode="" title="企业介绍" target="_blank" rel="nofollow">企业介绍</a></dd>
+                    <dd><a href="https://szccm1.cn.china.cn/certificates.html" data-scode="" title="企业资质" target="_blank" rel="nofollow">企业资质</a></dd>
+                </dl>
+                <dl class="fl-clr">
+                    <dt>联系我们</dt>
+                    <dd><a href="javascript:;" onclick="chinacn.openQQ('2533798927',30092);" title="QQ交谈" class="qjt" rel="nofollow">QQ交谈</a></dd>
+                    <dd><a href="https://my.cn.china.cn/manage.php?op=messageAnonPublish&amp;corpid=2922417000&amp;type=1" target="_blank" data-scode="" title="发送询盘" class="zxly" rel="nofollow">发送询盘</a></dd>
+                </dl>
+                <dl class="fl-clr">
+                    <dt>主营产品</dt>
+                    <dd>
+                        <a href="https://www.china.cn/search/p5ip.shtml" data-scode="" title="CNC加工中心" target="_blank" rel="nofollow">CNC加工中心</a>
+                        <a href="https://www.china.cn/search/3hled.shtml" data-scode="" title="钻铣攻牙机" target="_blank" rel="nofollow">钻铣攻牙机</a>
+                        <a href="https://www.china.cn/search/f4n41x.shtml" data-scode="" title="模具机/零件机" target="_blank" rel="nofollow">模具机/零件机</a>
+                        <a href="https://www.china.cn/search/hok494.shtml" data-scode="" title="高光机/玻璃机" target="_blank" rel="nofollow">高光机/玻璃机</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="ft_dz">
+                <span>
+                    <a href="https://www.china.cn/baoan/szccm1.html" target="_blank" data-scode="30044" title="深圳创世纪机械有限公司">深圳创世纪机械有限公司</a>
+                </span>
+                <span>手机：13602629173</span>
+                <span>电话：0755-27255633</span>
+                <span>地址：广东 深圳 宝安区 宝安区沙井街道东环路508号</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 企业在线 -->
+
+
+<input type="hidden" id="shop_name" value="szccm1"/>
+<input type="hidden" id="shop_domain" value="https://szccm1.cn.china.cn"/>
+<!-- js 代码部分 -->
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/config.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/jquery-1.7.2.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/cerberus/master/cerberus.min.js?t=20161219"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/jquery.cookie/1.4.1/jquery.cookie.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/md5/1.2.1/md5.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/turkey/master/turkey.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/cn/master/cn.min.js?t=201607181644" data-cnjs="{cid: '2922417000',subdomain: 'szccm1'}"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/search/1.1.4/search.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/qrcode/master/qrcode.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/store_v2/shopnew-1.1.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/store_v2/page.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/common/album/master/album.min.js"></script>
+<script charset="utf-8" type="text/javascript" src="https://himg.china.cn/js/bootstrap-2.3.2.min.js"></script>
+<!-- Javascript - 地图位置 - Begin -->
+<script type="text/javascript" src="//api.map.baidu.com/api?v=1.3"></script>
+<script type="text/javascript" src="https://api.map.baidu.com/getscript?v=1.3&amp;ak=&amp;services=&amp;t=20170518065919"></script>
+<link rel="stylesheet" type="text/css" href="https://api.map.baidu.com/res/13/bmaps.css"/>
+<script type="text/javascript">
+    var bdMap = function () {
+        var province = $('#bdmap .province').text();
+        var address = $('#bdmap .addr').text();
+        var map = new BMap.Map("bdmap");
+        map.centerAndZoom(new BMap.Point(116.404, 39.915), 3);
+        var myGeo = new BMap.Geocoder();
+        myGeo.getPoint(address, function (point) {
+            if (point) {
+                map.centerAndZoom(point, 16);
+                map.addOverlay(new BMap.Marker(point));
+            }
+        }, province);
+        var opts = {type: BMAP_NAVIGATION_CONTROL_SMALL}
+        map.addControl(new BMap.NavigationControl(opts));
+        var copyCtrl = new BMap.CopyrightControl({anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+        copyCtrl.addCopyright({id: 1, content: "中国供应商"});
+        map.addControl(copyCtrl);
+    };
+    bdMap();
+</script>
+<!-- Javascript - 地图位置 - End -->
+<div id="SL_balloon_obj" alt="0" style="display: block;">
+    <div id="SL_button" class="SL_ImTranslatorLogo" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/imtranslator-s.png&quot;); display: none; opacity: 0; left: 57px; top: 93px; transition: visibility 2s, opacity 2s linear;"></div>
+    <div id="SL_shadow_translation_result2" style="display: none;"></div>
+    <div id="SL_shadow_translator" style="display: none;">
+        <div id="SL_planshet">
+            <div id="SL_arrow_up" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/up.png&quot;);"></div>
+            <div id="SL_Bproviders">
+                <div class="SL_BL_LABLE_ON" title="Google" id="SL_P0">G</div>
+                <div class="SL_BL_LABLE_ON" title="Microsoft" id="SL_P1">M</div>
+                <div class="SL_BL_LABLE_ON" title="Translator" id="SL_P2">T</div>
+            </div>
+            <div id="SL_alert_bbl" style="display: none;">
+                <div id="SLHKclose" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/delete.png&quot;);"></div>
+                <div id="SL_alert_cont"></div>
+            </div>
+            <div id="SL_TB">
+                <table id="SL_tables" cellspacing="1">
+                    <tr>
+                        <td class="SL_td" width="10%" align="right">
+                            <input id="SL_locer" type="checkbox" title="鎖定語言"/>
+                        </td>
+                        <td class="SL_td" width="20%" align="left">
+                            <select id="SL_lng_from" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/select.png&quot;) 100% 0px no-repeat rgb(255, 255, 255);">
+                                <option value="auto">檢測語言</option><option value="sq">阿尔巴尼亚语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="ga">爱尔兰语</option><option value="et">爱沙尼亚语</option><option value="eu">巴斯克语</option><option value="be">白俄罗斯语</option><option value="bg">保加利亚语</option><option value="is">冰岛语</option><option value="pl">波兰语</option><option value="bs">波斯尼亚语</option><option value="fa">波斯语</option><option value="af">布尔语(南非荷兰语)</option><option value="da">丹麦语</option><option value="de">德语</option><option value="ru">俄语</option><option value="fr">法语</option><option value="tl">菲律宾语</option><option value="fi">芬兰语</option><option value="km">高棉语</option><option value="ka">格鲁吉亚语</option><option value="gu">古吉拉特语</option><option value="kk">哈萨克语</option><option value="ht">海地克里奥尔语</option><option value="ko">韩语</option><option value="ha">豪萨语</option><option value="nl">荷兰语</option><option value="gl">加利西亚语</option><option value="ca">加泰罗尼亚语</option><option value="cs">捷克语</option><option value="kn">卡纳达语</option><option value="hr">克罗地亚语</option><option value="la">拉丁语</option><option value="lv">拉脱维亚语</option><option value="lo">老挝语</option><option value="lt">立陶宛语</option><option value="ro">罗马尼亚语</option><option value="mg">马尔加什语</option><option value="mt">马耳他语</option><option value="mr">马拉地语</option><option value="ml">马拉雅拉姆语</option><option value="ms">马来语</option><option value="mk">马其顿语</option><option value="mi">毛利语</option><option value="mn">蒙古语</option><option value="bn">孟加拉语</option><option value="my">缅甸语</option><option value="hmn">苗语</option><option value="zu">南非祖鲁语</option><option value="ne">尼泊尔语</option><option value="no">挪威语</option><option value="pa">旁遮普语</option><option value="pt">葡萄牙语</option><option value="ny">齐切瓦语</option><option value="ja">日语</option><option value="sv">瑞典语</option><option value="sr">塞尔维亚语</option><option value="st">塞索托语</option><option value="si">僧伽罗语</option><option value="eo">世界语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sw">斯瓦希里语</option><option value="ceb">宿务语</option><option value="so">索马里语</option><option value="tg">塔吉克语</option><option value="te">泰卢固语</option><option value="ta">泰米尔语</option><option value="th">泰语</option><option value="tr">土耳其语</option><option value="cy">威尔士语</option><option value="ur">乌尔都语</option><option value="uk">乌克兰语</option><option value="uz">乌兹别克语</option><option value="iw">希伯来语</option><option value="el">希腊语</option><option value="es">西班牙语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="ig">伊博语</option><option value="it">意大利语</option><option value="yi">意第绪语</option><option value="hi">印地语</option><option value="su">印尼巽他语</option><option value="id">印尼语</option><option value="jw">印尼爪哇语</option><option value="en">英语</option><option value="yo">约鲁巴语</option><option value="vi">越南语</option><option value="zh-CN">中文简体</option><option value="zh-TW">中文繁体</option>
+                            </select>
+                        </td>
+                        <td class="SL_td" width="3" align="center">
+                            <div id="SL_switch_b" title="切換語言" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/switchb.png&quot;);"></div>
+                        </td>
+                        <td class="SL_td" width="20%" align="left">
+                            <select id="SL_lng_to" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/select.png&quot;) 100% 0px no-repeat rgb(255, 255, 255);">
+                                <option value="sq">阿尔巴尼亚语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="ga">爱尔兰语</option><option value="et">爱沙尼亚语</option><option value="eu">巴斯克语</option><option value="be">白俄罗斯语</option><option value="bg">保加利亚语</option><option value="is">冰岛语</option><option value="pl">波兰语</option><option value="bs">波斯尼亚语</option><option value="fa">波斯语</option><option value="af">布尔语(南非荷兰语)</option><option value="da">丹麦语</option><option value="de">德语</option><option value="ru">俄语</option><option value="fr">法语</option><option value="tl">菲律宾语</option><option value="fi">芬兰语</option><option value="km">高棉语</option><option value="ka">格鲁吉亚语</option><option value="gu">古吉拉特语</option><option value="kk">哈萨克语</option><option value="ht">海地克里奥尔语</option><option value="ko">韩语</option><option value="ha">豪萨语</option><option value="nl">荷兰语</option><option value="gl">加利西亚语</option><option value="ca">加泰罗尼亚语</option><option value="cs">捷克语</option><option value="kn">卡纳达语</option><option value="hr">克罗地亚语</option><option value="la">拉丁语</option><option value="lv">拉脱维亚语</option><option value="lo">老挝语</option><option value="lt">立陶宛语</option><option value="ro">罗马尼亚语</option><option value="mg">马尔加什语</option><option value="mt">马耳他语</option><option value="mr">马拉地语</option><option value="ml">马拉雅拉姆语</option><option value="ms">马来语</option><option value="mk">马其顿语</option><option value="mi">毛利语</option><option value="mn">蒙古语</option><option value="bn">孟加拉语</option><option value="my">缅甸语</option><option value="hmn">苗语</option><option value="zu">南非祖鲁语</option><option value="ne">尼泊尔语</option><option value="no">挪威语</option><option value="pa">旁遮普语</option><option value="pt">葡萄牙语</option><option value="ny">齐切瓦语</option><option value="ja">日语</option><option value="sv">瑞典语</option><option value="sr">塞尔维亚语</option><option value="st">塞索托语</option><option value="si">僧伽罗语</option><option value="eo">世界语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sw">斯瓦希里语</option><option value="ceb">宿务语</option><option value="so">索马里语</option><option value="tg">塔吉克语</option><option value="te">泰卢固语</option><option value="ta">泰米尔语</option><option value="th">泰语</option><option value="tr">土耳其语</option><option value="cy">威尔士语</option><option value="ur">乌尔都语</option><option value="uk">乌克兰语</option><option value="uz">乌兹别克语</option><option value="iw">希伯来语</option><option value="el">希腊语</option><option value="es">西班牙语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="ig">伊博语</option><option value="it">意大利语</option><option value="yi">意第绪语</option><option value="hi">印地语</option><option value="su">印尼巽他语</option><option value="id">印尼语</option><option value="jw">印尼爪哇语</option><option value="en">英语</option><option value="yo">约鲁巴语</option><option value="vi">越南语</option><option selected="selected" value="zh-CN">中文简体</option><option value="zh-TW">中文繁体</option>
+                            </select>
+                        </td>
+                        <td class="SL_td" width="11%" align="center"> </td>
+                        <td class="SL_td" width="8%" align="center">
+                            <div id="SL_TTS_voice" title="聆聽" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/ttsvoice.png&quot;);"></div>
+                        </td>
+                        <td class="SL_td" width="8%" align="center">
+                            <div id="SL_copy" title="複製譯文" class="SL_copy" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/copy.png&quot;);"></div>
+                        </td>
+                        <td class="SL_td" width="8%" align="center">
+                            <div id="SL_bbl_font_patch"></div>
+                            <div id="SL_bbl_font" title="字體大小" class="SL_bbl_font" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/font.png&quot;);"></div>
+                        </td>
+                        <td class="SL_td" width="8%" align="center"></td>
+                        <td class="SL_td" width="3%"> </td>
+                        <td class="SL_td" width="15%" align="right">
+                            <div id="SL_pin" class="SL_pin_off" title="固定彈出窗口" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/pin-on.png&quot;);"></div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div id="SL_shadow_translation_result" style="visibility: visible;"></div>
+        <div id="SL_loading" class="SL_loading" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/loading.gif&quot;);"></div>
+        <div id="SL_player2"></div>
+        <div id="SL_alert100">語言功能限200個字符</div>
+        <div id="SL_Balloon_options" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/bg3.png&quot;) rgb(255, 255, 255);">
+            <div id="SL_arrow_down" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/down.png&quot;);"></div>
+            <table width="100%">
+                <tr>
+                    <td width="15%" align="left" height="16">
+                        <div id="SL_bbl_donate" title="進行一點捐款" style="background: url(&quot;chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/img/util/donate.png&quot;);"></div>
+                    </td>
+                    <td width="70%" align="center">
+                        <a href="chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?bbl" target="_blank" class="SL_options" title="顯示選項">選項</a> :
+                        <a href="chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?hist" target="_blank" class="SL_options" title="翻譯歷史">歷史</a> :
+                        <a href="http://about.imtranslator.net/tutorials/presentations/imtranslator-for-chrome/chrome-bubble-translator/" target="_blank" class="SL_options" title="幫助">幫助</a> :
+                        <a href="chrome-extension://noaijdpnepcgjemiklgfkcfbkokogabh/content/html/options/options.html?feed" target="_blank" class="SL_options" title="反饋">反饋</a>
+                    </td>
+                    <td width="15%" align="right">
+                        <span id="SL_Balloon_Close" title="關閉">關閉</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>
